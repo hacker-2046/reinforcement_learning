@@ -1,3 +1,9 @@
+'''
+Overview:
+* The code builds an MDP-based RL agent by creating an environment with a grid and obstacles, defining actions, and implementing Q-learning to optimize the agent's policy through experience. 
+* It also uses value iteration to derive an optimal policy based on dynamic programming. 
+* Finally, it benchmarks the efficiency and effectiveness of both methods by measuring execution time and comparing the derived policies.
+'''
 import numpy as np
 import random
 import matplotlib.pyplot as plt
@@ -134,11 +140,6 @@ print("\nQ-Learning Derived Policy:")
 print(q_policy)
 
 '''
-Overview:
-The code builds an MDP-based RL agent by creating an environment with a grid and obstacles, defining actions, and implementing Q-learning to optimize the agent's policy through experience. 
-It also uses value iteration to derive an optimal policy based on dynamic programming. 
-Finally, it benchmarks the efficiency and effectiveness of both methods by measuring execution time and comparing the derived policies.
-
 Sample Output:
 Q-Learning Time: 0.22255635261535645
 Value Iteration Time: 2.504316806793213
